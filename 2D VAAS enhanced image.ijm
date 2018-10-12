@@ -26,7 +26,7 @@ for(j=0;j<y_num_pnts;j++){
     for(i=0;i<x_num_pnts;i++){
         idx = j*x_num_pnts+i;
         pntsX[idx] = 100+i*dx;
-        pntsY[idx] = 100+j*dx;
+        pntsY[idx] = 100+j*dy;
 
     }
 }
